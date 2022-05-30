@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* features */
+.features h1{
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 40px;
+    color: #000;
+}
+.feture-box{
+    margin-bottom: 30px;
+}
+.features{
+    padding: 100px 0;
+}
+.features h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #ff5722;
+}
+.feture-img img{
+    width: 100%;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+}
+.feture-img{
+    position: relative; 
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+}
+.features .bi{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feture-details{
+    padding: 20px;
+    text-align: center;
+}
+.feture-details h4{
+    font-weight: 600px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ff5722;
+    font-weight: bold;
+}
+.feture-details .bi{
+    margin-right: 5px;
+}
+.feture-details p{
+    line-height: 10px;
+}
+.feture-details .red{
+    color: #d9d9d9;
+}

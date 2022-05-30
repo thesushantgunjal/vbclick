@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+.contact-header{
+	height: 50vh;
+	width: 100%;
+	background-image:linear-gradient(rgba(155, 0, 0, 0.5),rgba(155, 10, 0, 0.5)),
+	url(../image/wed7.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.contact-form{
+	padding: 100px 0;
+}
+.contact-form h1{
+	font-family: 'Berkshire Swash', cursive;
+	color: #ff5722;
+	font-size: 50px;
+}
+.contact-form .main_title{
+	text-align: center;
+}
+.click-btn{
+	margin-top: 10px;
+	padding: 5px 10px;	
+	outline: none !important;
+	border: 2px solid orange;
+	background: transparent;
+	color: orange;
+}
+.click-btn:hover{
+	border: 2px solid orange;
+	background-color: orange;
+	color: #fff;
+}
+
+.contact-img img{
+	/*position: absolute;*/
+	bottom: 0;
+	left: 0;
+}
+
+
+
+
+/* user-feedback */
+.contact-details{
+	margin-top: 50px;
+}
+.user-feedback{
+	padding: 100px 0;
+	text-align: center;
+	background: #efefef;
+}
+.user-review{
+	text-align: center;
+	padding: 20px 20px;
+	transition: 1s;
+	background: #fff;
+	margin-top: 20px;
+}
+.user-review h5{
+	padding: 20px 10px 20px 10px;
+}
+.user-review .bi{
+	font-size: 50px;
+	color: #ff5722;
+}

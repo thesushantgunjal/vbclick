@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+/*** Navbar ***/
+.navbar.sticky-top {
+    top: -100px;
+    transition: .5s;
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 80px
+}
+
+.topbar{
+    background: #004d4d;
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: var(--dark);
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #ff5722 !important;
+}
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+/* page header */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)),
+    url(../image/bg6.jpg) center center no-repeat;
+    background-size: cover;
+}
+.page-header a{
+    text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #999999;
+}
+.active{
+    color: #ffcc00 !important;
+}
+
+
+/* footer */
+.footer{
+	padding: 50px 5px 10px 5px;
+	background: #004d4d;
+	color: #fff;
+}
+.copyright a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer-logo{
+	/*font-family: 'Kaushan Script', cursive;*/
+	color: #ff7230;
+	font-size: 25px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.footer h4{
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.footer p{
+	font-size: 12px;
+	text-align: justify;
+	padding-right: 35px;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer a:hover{
+    color: #ffcc00;
+}
+.footer .bi{
+	margin-right: 10px;
+	font-size: 15px;
+}
+.footer hr{
+	background: #fff;
+}
+.footer .bi-heart-fill{
+	margin: 2px 5px;
+	color: #f44336;
+}
+.footer .copyright{
+	text-align: center;
+}
